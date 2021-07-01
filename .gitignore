@@ -1,0 +1,8 @@
+# libraries
+node_modules
+
+# configs
+config.json
+
+# misc
+commands/template.js
