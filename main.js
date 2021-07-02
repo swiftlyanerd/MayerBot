@@ -29,7 +29,7 @@ mayerbot.onMessage = async function onMessage(message) {
 
     const args = message.content.split(/ +/);
 
-    const command = args.shift().toLowerCase().slice(1);
+    const command = args.shift().toLowerCase().slice(prefix.length);
 
    if(!this.commands.has(command)) return;
 
